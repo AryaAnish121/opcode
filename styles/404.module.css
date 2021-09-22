@@ -1,0 +1,16 @@
+.Container {
+  padding-left: 150px;
+  height: 60vh;
+  width: 100%;
+  background: rgb(130, 220, 223);
+  display: flex;
+  align-items: center;
+}
+.Container h1 {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 100px;
+  color: #fff;
+}
+.Container h1 span {
+  font-size: 35px;
+}

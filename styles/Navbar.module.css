@@ -1,0 +1,18 @@
+.Navbar {
+  position: relative;
+  height: 87.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Logo {
+  position: absolute;
+  left: 45px;
+  border-bottom: 5px solid rgb(130, 220, 223);
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.Links a {
+  margin: 0px 15px;
+}

@@ -1,0 +1,60 @@
+.Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  width: 100%;
+  background: rgb(130, 220, 223);
+}
+.Modal {
+  min-height: 150px;
+  width: 375px;
+  background: #fff;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  position: relative;
+}
+.Modal h3 {
+  font-size: 16px;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  margin-bottom: 12.5px;
+}
+.Modal input {
+  border: none;
+  border-bottom: 1px solid rgb(130, 220, 223);
+  outline: none;
+  padding: 7.5px;
+  margin-bottom: 12.5px;
+  font-family: 'Raleway', sans-serif;
+}
+.publicKey {
+  margin-top: 5px;
+}
+.submitButton {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.Modal button {
+  border: none;
+  outline: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #251c35;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 1rem;
+  padding: 0;
+}
+.disabled::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.562);
+}

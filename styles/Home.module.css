@@ -1,0 +1,38 @@
+.HomeContent {
+  display: flex;
+  align-items: center;
+  height: 60vh;
+  width: 100%;
+  background: rgb(130, 220, 223);
+}
+.HomeMainContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 150px;
+  width: 50%;
+  height: 100%;
+}
+.HomeMainContent h1 {
+  margin-bottom: 7.5px;
+  color: #fff;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 25px;
+}
+.HomeMainContent p {
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  margin-bottom: 15px;
+}
+.HomeMainContent button {
+  padding: 12.5px;
+  width: fit-content;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  background: #4b3869;
+  font-size: 13px;
+}

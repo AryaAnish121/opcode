@@ -1,0 +1,25 @@
+.Footer {
+  width: 100%;
+  height: calc(100vh - calc(60vh + 87.5px));
+  background: #251c35;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.FooterSubDivision {
+  display: flex;
+  flex-direction: column;
+}
+.FooterSubDivision h3 {
+  font-size: 13.5px;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  color: #f1f1f1;
+  margin-bottom: 12.5px;
+  font-weight: 600;
+}
+.FooterSubDivision a {
+  color: #e0e0e0;
+  margin-bottom: 7.5px;
+  font-size: 15px;
+  font-weight: 400;
+}
