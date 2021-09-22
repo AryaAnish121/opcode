@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/Developer.module.css';
 
-const developer = () => {
+const Developer = () => {
   return (
     <div>
       <Head>
@@ -14,4 +14,4 @@ const developer = () => {
   );
 };
 
-export default developer;
+export default Developer;

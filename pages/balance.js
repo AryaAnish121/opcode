@@ -3,7 +3,7 @@ import apiBaseUrl from '../components/apiBaseUrl';
 import Head from 'next/head';
 import { useState } from 'react';
 
-const balance = () => {
+const Balance = () => {
   const [name, setName] = useState('check balance');
 
   const [details, setDetails] = useState({
@@ -71,4 +71,4 @@ const balance = () => {
   );
 };
 
-export default balance;
+export default Balance;

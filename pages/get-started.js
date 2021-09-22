@@ -3,7 +3,7 @@ import styles from '../styles/GetStarted.module.css';
 import apiBaseUrl from '../components/apiBaseUrl';
 import Head from 'next/head';
 
-const getStarted = () => {
+const GetStarted = () => {
   const [error, setError] = useState(false);
   const [name, setName] = useState('');
   const [placeholder, setPlaceholder] = useState('your name');
@@ -84,4 +84,4 @@ const getStarted = () => {
   );
 };
 
-export default getStarted;
+export default GetStarted;

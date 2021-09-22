@@ -3,7 +3,7 @@ import apiBaseUrl from '../components/apiBaseUrl';
 import Head from 'next/head';
 import { useState } from 'react';
 
-const transfer = () => {
+const Transfer = () => {
   const [disabled, setDisabled] = useState(false);
   const [title, setTitle] = useState('transfer');
   const [details, setDetails] = useState({
@@ -99,4 +99,4 @@ const transfer = () => {
   );
 };
 
-export default transfer;
+export default Transfer;
